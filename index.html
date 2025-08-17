@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Playful Heart Apps</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>Playful Heart Apps</h1>
+
+  <div class="grid">
+    <a href="https://miawizz.github.io/who-can-sound-like/index.html" class="tile">
+      <img src="icons/who-can-sound-like.jpeg" alt="Who Can Sound Like" />
+    </a>
+    <a href="https://miawizz.github.io/you-are/index.html" class="tile">
+      <img src="icons/you-are.jpeg" alt="You Are" />
+    </a>
+    <a href="https://miawizz.github.io/WYR/index.html" class="tile">
+      <img src="icons/would-you-rather.jpeg" alt="Would You Rather" />
+    </a>
+    <a href="https://miawizz.github.io/plot-twist/" class="tile">
+      <img src="icons/plot-twist.jpeg" alt="Plot Twist" />
+    </a>
+    <a href="https://arewethereyet.playfulheartparenting.com/" class="tile">
+      <img src="icons/are-we-there-yet.jpeg" alt="Are We There Yet?" />
+    </a>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+    }
+  </script>
+</body>
+</html>
